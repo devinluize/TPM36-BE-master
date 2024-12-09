@@ -1,0 +1,34 @@
+API -> Application Programming Interface
+
+kita rules, protocol aturan memungkinkan untuk berkomunikasi antar aplikasi atau antar sistem
+
+API -> bisa digunakan untuk bekkomunikasi antara 1 backend dengan backend lain
+Microservices -> suatu arsitektur codingan dimana dia memecah satu aplikasi besar menjadi beberapa services kecil
+service A membutuhkan service B
+
+Kita butuh yang namanya API -> adalah suatu cara untuk berkomunikasi antar sistem
+
+API -> juga digunakan untuk komunikasi antara frontend dengan backend
+
+ada yang namanya payload -> dalam API Payload adalah suatu "objek" yang dibawah untuk digunakan berkomunikasi
+
+Payload yang paling banyak digunakan sekarang
+Format JSON -> JavaScript Object Notation. Json Gampang dibaca sama manusia dan JSON Mudah diproses komputer
+
+dibuka dan diakhiri dengan {}
+Lalu Isi dari JSON adalah key:value -> key harus selalu berfomat string
+value -> boleh bebas bisa int,float, object,array
+aku punya objek buku
+
+Judul : Harry Potter
+Author : Harry
+Stock : 14
+Genre : Fantasy
+
+{
+    "judul":"Harry Potter",
+    "author":"Harry",
+    "stock":14,
+    "genre":"Fantasy"
+}
+Oauth2 -> dia protocol security tanpa harus kirim credential
